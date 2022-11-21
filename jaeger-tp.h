@@ -10,8 +10,8 @@
 #include <lttng/tracepoint.h>
 
 TRACEPOINT_EVENT(
-    lttng,
-    event,
+    jaeger_ust,
+    start_span,
 
     /* Input arguments */
     TP_ARGS(
