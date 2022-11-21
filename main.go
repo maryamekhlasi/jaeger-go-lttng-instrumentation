@@ -13,5 +13,4 @@ func ReportSpan(operationName string, parentID uint64, traceID uint64, spanID ui
 		C.uint64_t(traceID),
 		C.uint64_t(spanID),
 		C.CString(functionName)),
-	)
 }
